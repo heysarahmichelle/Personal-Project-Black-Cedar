@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 
 
 
@@ -55,5 +55,6 @@ table {
 }
 
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }

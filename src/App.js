@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import './App.scss';
-import Header from './components/Header/Header';
 import Announcement from './components/Announcement/Announcement';
+import Header from './components/Header/Header';
+import BottomTabs from './components/Header/Bottom Tabs/BottomTabs';
 import FeatureCarousel from './components/Feature Carousel/FeatureCarousel';
 import Video from './components/Video/Video';
-import BottomTabs from './components/Header/Bottom Tabs/BottomTabs';
+import FourShopLinks from './components/Four Shop Links/FourShopLinks';
 import styled from 'styled-components';
 
 
@@ -26,6 +27,7 @@ class App extends Component {
         <BottomTabs />
         <FeatureCarousel />
         <Video />
+        <FourShopLinks />
 
 
      </div>
