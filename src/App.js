@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Announcement from './components/Announcement/Announcement';
 import FeatureCarousel from './components/Feature Carousel/FeatureCarousel';
 import Video from './components/Video/Video';
+import BottomTabs from './components/Header/Bottom Tabs/BottomTabs';
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
       <div className="App">
         <Announcement />
         <Header />
+        <BottomTabs />
         <FeatureCarousel />
         <Video />
 

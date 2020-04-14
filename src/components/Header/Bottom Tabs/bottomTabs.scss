@@ -1,0 +1,29 @@
+.bottom-tabs-component {
+    height: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 20px;
+    width: 100%;
+    word-spacing: 10px;
+}
+
+.company-tabs {
+    display: flex;
+    word-spacing: 15px;
+    margin-left: 40px;
+
+    p {
+        display: flex;
+        font-size: 8.5px;
+        letter-spacing: 2px;
+        margin-right: 40px;
+    }
+}
+
