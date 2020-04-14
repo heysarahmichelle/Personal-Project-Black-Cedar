@@ -1,9 +1,46 @@
 .header-component {
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #b6b3b3;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
     font-family:'Raleway', sans-serif;
     width: 100vw;
-    height: 18vh;
+    height: 10vh;
+    padding: 10px;
+}
+
+.company-name {
+    display: flex;
+    justify-content: center;
+    background-color: #b35e5e;
+    height: 20px;
+    width: 130px;
+
+    p {
+  
+    }
+}
+
+.bottom-tabs {
+    display: flex;
+    justify-content: space-around;
+    height: 20px;
+    width: 150px;
+    background-color: darkcyan;
+}
+
+.company-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        display: flex;
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+}
+
+.account-search-cart {
+
 }
