@@ -6,7 +6,6 @@ import BottomTabs from './components/Header/Bottom Tabs/BottomTabs';
 import FeatureCarousel from './components/Feature Carousel/FeatureCarousel';
 import Video from './components/Video/Video';
 import FourShopLinks from './components/Four Shop Links/FourShopLinks';
-import styled from 'styled-components';
 
 
 

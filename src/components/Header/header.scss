@@ -11,6 +11,7 @@
 
 .company-info-component {
     display: flex;
+    color: #252525;
 }
 
 .company-name {
@@ -18,6 +19,7 @@
     font-size: 20px;
     font-weight: 400;
     margin-left: 225px;
+    color: #252525;
 }
 
 .account-component {
@@ -26,11 +28,13 @@
     width: 150px;
     word-spacing: 10px;
     margin-left: 125px;
+    color: #252525;
 }
 
 .account-search-cart {
     display: flex;
     word-spacing: 15px;
+    color: #252525;
 
     p {
         display: flex;
@@ -38,6 +42,7 @@
         font-weight: 600;
         letter-spacing: 2px;
         margin-left: 30px;
+        color: #252525;
     }
 }
 
@@ -47,4 +52,5 @@
     letter-spacing: 2px;
     font-family: sans-serif;
     font-weight: normal;
+    color: #252525;
 }
