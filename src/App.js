@@ -11,7 +11,7 @@ import Trending from './components/Home Page/Trending/Trending';
 import GetToKnowUs from './components/Home Page/Get To Know Us/GetToKnowUs';
 import Quotes from './components/Home Page/Quotes/Quotes';
 import FromTheBlog from './components/Home Page/From the Blog/FromTheBlog';
-
+import ContactUs from './components/Home Page/Contact Us/ContactUs';
 
 class App extends Component {
   constructor(){
@@ -35,6 +35,7 @@ class App extends Component {
         <Trending />
         <Quotes />
         <FromTheBlog />
+        <ContactUs />
 
 
      </div>
