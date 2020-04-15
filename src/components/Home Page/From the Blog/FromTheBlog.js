@@ -21,7 +21,7 @@ class FromTheBlog extends Component {
                     <section className="blurb-two">
                         <section className="blurb-photo-two">
                         </section>
-                        <p className="meet-name">MEET THE WOMEN</p>
+                        <p className="meet-name">QUARANTINE TIPS</p>
                         <p className="blurb-about">For our #WeAreWeCan campaign, we sat down with Leandra Ale-Marheine, age 33, to hear her story. After becoming a new mom, Leandra struggled with th...</p>
                         <p className="read-more">READ MORE</p>
                     </section>
