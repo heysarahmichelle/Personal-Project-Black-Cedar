@@ -6,7 +6,7 @@ import BottomTabs from './components/Header/Bottom Tabs/BottomTabs';
 import FeatureCarousel from './components/Feature Carousel/FeatureCarousel';
 import Video from './components/Video/Video';
 import FourShopLinks from './components/Four Shop Links/FourShopLinks';
-
+import FeaturedCollection from './components/Featured Collection/FeaturedCollection';
 
 
 
@@ -27,6 +27,7 @@ class App extends Component {
         <FeatureCarousel />
         <Video />
         <FourShopLinks />
+        <FeaturedCollection />
 
 
      </div>
