@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
 import './App.scss';
-import Announcement from './components/Announcement/Announcement';
-import Header from './components/Header/Header';
-import BottomTabs from './components/Header/Bottom Tabs/BottomTabs';
-import FeatureCarousel from './components/Feature Carousel/FeatureCarousel';
-import Video from './components/Video/Video';
-import FourShopLinks from './components/Four Shop Links/FourShopLinks';
-import FeaturedCollection from './components/Featured Collection/FeaturedCollection';
-import Trending from './components/Trending/Trending';
-
+import Announcement from './components/Home Page/Announcement/Announcement';
+import Header from './components/Home Page/Header/Header';
+import BottomTabs from './components/Home Page/Header/Bottom Tabs/BottomTabs';
+import FeatureCarousel from './components/Home Page/Feature Carousel/FeatureCarousel';
+import Video from './components/Home Page/Video/Video';
+import FourShopLinks from './components/Home Page/Four Shop Links/FourShopLinks';
+import FeaturedCollection from './components/Home Page/Featured Collection/FeaturedCollection';
+import Trending from './components/Home Page/Trending/Trending';
+import GetToKnowUs from './components/Home Page/Get To Know Us/GetToKnowUs';
+import Quotes from './components/Home Page/Quotes/Quotes';
 
 
 class App extends Component {
@@ -29,7 +30,9 @@ class App extends Component {
         <Video />
         <FourShopLinks />
         <FeaturedCollection />
+        <GetToKnowUs />
         <Trending />
+        <Quotes />
 
 
      </div>

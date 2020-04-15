@@ -1,0 +1,31 @@
+.get-to-know-component {
+    background-color: #CCC9C2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 100vw;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+}
+
+.know-first-line {
+    font-size: 18px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+
+.know-second-line {
+    font-size: 12px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.know-third-line {
+    font-size: 8px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    border-bottom: 2px #ffffff;
+}
