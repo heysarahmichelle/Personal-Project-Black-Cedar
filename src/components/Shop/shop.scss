@@ -1,0 +1,115 @@
+.shop-component {
+    background-color: #f3f3f3;
+    height: 300vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+    h1 {
+        margin-top: 45px;
+        font-family: "Raleway", sans-serif;
+        letter-spacing: 4px;
+        font-size: 18px;
+        margin-bottom: 25px;
+        font-weight: 800;
+    }
+}
+
+.featured-photos {
+    height: 45vh;
+    width: 100vw;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 45px;
+}
+
+.feature-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5px;
+    .rectangle-one {
+        height: 43vh;
+        width: 24vw;
+        background-color: #C58780;
+        margin-left: 5px;
+    }
+}
+
+.feature-two {
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .rectangle-two {
+        height: 43vh;
+        width: 24vw;
+        background-color: #C58780;
+        margin-left: 5px;
+    }
+}
+
+.feature-three {
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .rectangle-three {
+        height: 43vh;
+        width: 24vw;
+        background-color: #C58780;
+        margin-left: 5px;
+    }
+}
+
+.feature-four {
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .rectangle-four {
+        height: 43vh;
+        width: 24vw;
+        background-color: #C58780;
+        margin-left: 5px;
+    }
+}
+
+.product-name {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    font-family: "Raleway", sans-serif;
+    font-size: 8px;
+}
+
+.product-price {
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    font-family: "Raleway", sans-serif;
+    font-size: 8px;
+    color: #EA4840;
+}
+
+.view-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+    background-color: #3c3c3c;
+    border-style: none;
+    color: #ffffff;
+    margin-top: 2px;
+    margin-bottom: 45px;
+}
