@@ -1,4 +1,4 @@
-.featured-collection-component {
+.trending-collection-component {
     background-color: #f3f3f3;
     height: 100vh;
     width: 100vw;
@@ -25,7 +25,7 @@
     }
 }
 
-.featured-photos {
+.trending-photos {
     height: 45vh;
     width: 100vw;
     background-color: #f3f3f3;
@@ -37,7 +37,7 @@
     margin-bottom: 45px;
 }
 
-.feature-one {
+.trend-one {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,16 +46,12 @@
     .rectangle-one {
         height: 43vh;
         width: 24vw;
-        background-color: #C58780;
+        background-color: #1A4653;
         margin-left: 5px;
-    
-        p {
-    
-        }
     }
 }
 
-.feature-two {
+.trend-two {
     margin-left: 5px;
     display: flex;
     justify-content: center;
@@ -64,12 +60,12 @@
     .rectangle-two {
         height: 43vh;
         width: 24vw;
-        background-color: #C58780;
+        background-color: #1A4653;
         margin-left: 5px;
     }
 }
 
-.feature-three {
+.trend-three {
     margin-left: 5px;
     display: flex;
     justify-content: center;
@@ -78,12 +74,12 @@
     .rectangle-three {
         height: 43vh;
         width: 24vw;
-        background-color: #C58780;
+        background-color: #1A4653;
         margin-left: 5px;
     }
 }
 
-.feature-four {
+.trend-four {
     margin-left: 5px;
     display: flex;
     justify-content: center;
@@ -92,7 +88,7 @@
     .rectangle-four {
         height: 43vh;
         width: 24vw;
-        background-color: #C58780;
+        background-color: #1A4653;
         margin-left: 5px;
     }
 }
@@ -113,12 +109,12 @@
     color: #EA4840;
 }
 
-.view-button {
+.trend-view-button {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30px;
-    width: 200px;
+    width: 120px;
     background-color: #3c3c3c;
     border-style: none;
     color: #ffffff;

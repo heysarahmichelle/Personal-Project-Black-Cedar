@@ -7,6 +7,7 @@ import FeatureCarousel from './components/Feature Carousel/FeatureCarousel';
 import Video from './components/Video/Video';
 import FourShopLinks from './components/Four Shop Links/FourShopLinks';
 import FeaturedCollection from './components/Featured Collection/FeaturedCollection';
+import Trending from './components/Trending/Trending';
 
 
 
@@ -28,6 +29,7 @@ class App extends Component {
         <Video />
         <FourShopLinks />
         <FeaturedCollection />
+        <Trending />
 
 
      </div>

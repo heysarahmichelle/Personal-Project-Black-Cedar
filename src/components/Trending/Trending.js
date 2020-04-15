@@ -1,50 +1,50 @@
 import React, { Component } from 'react';
-import './featuredCollection.scss';
+import './trending.scss';
 
-class FeaturedCollection extends Component {
+class Trending extends Component {
     render() {
         return (
-            <div className="featured-collection-component">
+            <div className="trending-collection-component">
                 <h1>
-                    FEATURED COLLECTION
+                    SEE WHAT IS TRENDING
                 </h1>
                 <h3>
-                    SS20 WILDFLOWER COLLECTION
+                    BEST SELLERS
                 </h3>
 
-                <div className="featured-photos">
-                    <section className="feature-one">
+                <div className="trending-photos">
+                    <section className="trend-one">
                         <section className="rectangle-one">
                         </section>
                         <p className="product-name">THE BLACK BEAR</p>
                         <p className="product-price">$199.99</p>
                     </section>
 
-                    <section className="feature-two">
+                    <section className="trend-two">
                         <section className="rectangle-two">
                         </section>
-                        <p className="product-name">THE MAMA BEAR</p>
-                        <p className="product-price">$299.99</p>
+                        <p className="product-name">THE BABY BEAR</p>
+                        <p className="product-price">$159.99</p>
                     </section>
 
-                    <section className="feature-three">
+                    <section className="trend-three">
                         <section className="rectangle-three">
                         </section>
-                        <p className="product-name">THE POLAR BEAR</p>
-                        <p className="product-price">$299.99</p>
+                        <p className="product-name">THE KODIAK CAR KIT</p>
+                        <p className="product-price">$159.99</p>
                     </section>
 
-                    <section className="feature-four">
+                    <section className="trend-four">
                         <section className="rectangle-four">
                         </section>
                         <p className="product-name">THE GRIZZLY BEAR</p>
                         <p className="product-price">$399.99</p>
                     </section>
                 </div>
-                <button className="view-button">VIEW SS20 COLLECTION</button>
+                <button className="trend-view-button">SHOP TRENDS</button>
             </div>
         )
     }
 }
 
-export default FeaturedCollection;
+export default Trending;
