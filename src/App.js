@@ -10,6 +10,7 @@ import FeaturedCollection from './components/Home Page/Featured Collection/Featu
 import Trending from './components/Home Page/Trending/Trending';
 import GetToKnowUs from './components/Home Page/Get To Know Us/GetToKnowUs';
 import Quotes from './components/Home Page/Quotes/Quotes';
+import FromTheBlog from './components/Home Page/From the Blog/FromTheBlog';
 
 
 class App extends Component {
@@ -33,6 +34,7 @@ class App extends Component {
         <GetToKnowUs />
         <Trending />
         <Quotes />
+        <FromTheBlog />
 
 
      </div>
